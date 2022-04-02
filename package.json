@@ -1,0 +1,28 @@
+{
+  "name": "profile-the-jest-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moonman9/profile-the-jest-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moonman9/profile-the-jest-generator/issues"
+  },
+  "homepage": "https://github.com/Moonman9/profile-the-jest-generator#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.2"
+  }
+}
