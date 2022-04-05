@@ -26,7 +26,7 @@ function addEmployee () {
                 addIntern();
                 break;
 
-            // default: createHtml();
+            default: createHtml();
         }
     })
 }
@@ -199,13 +199,13 @@ function addIntern() {
         },
         {
             type: 'input',
-            message: "What is the intern's GitHub username?",
-            name: 'internGitHub',
+            message: "What is the intern's school name?",
+            name: 'internSchool',
             validate: nameInput => {
                 if (nameInput) {
                     return true;
                 } else {
-                    console.log("Please enter the intern's name");
+                    console.log("Please enter the interns appropriate school name");
                     return false;
                 }
             }
@@ -217,7 +217,8 @@ function addIntern() {
     })
 }
 
-// function createHtml() {
+function createHtml() {
+    console.log(teamArray)
 //     fs.writeFile('./dist/index.html', data, err => {
 //         if (err) {
 //             console.log(err);
@@ -226,7 +227,7 @@ function addIntern() {
 //             console.log("Team profile page has been generated.")
 //         }
 //     })
-// }
+}
 
 
 addEmployee();
